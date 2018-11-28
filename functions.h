@@ -31,8 +31,6 @@ uint8_t check_pg_table(uint8_t pg_number);
 
 uint8_t check_tlb_table(uint8_t pg_number);
 
-double calc_pg_error_rate(double pg_error, unsigned int nmbr_access);
-
-double calc_tbl_match_rate(double tbl_match, unsigned int nmbr_access);
+double calc_rate(double number, unsigned int nmbr_access);
 
 #endif
