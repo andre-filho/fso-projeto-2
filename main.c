@@ -62,8 +62,8 @@ int main(int argc, char *argv[])
       printf("\n");
     }
 
-    printf("page error rate: %.2lf%\n", calc_rate(pg_err, memo_access));
-    printf("tlb match rate: %.2lf%\n", calc_rate(tlb_match, memo_access));
+    printf("page error rate: %.2lf\n", calc_rate(pg_err, memo_access));
+    printf("tlb match rate: %.2lf\n", calc_rate(tlb_match, memo_access));
 
     fclose(addr_file);
     fclose(backstore_memo_file);
